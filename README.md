@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="mumpy banner" width="100%"/>
+  <img src="https://raw.githubusercontent.com/salim-studio/mumpy/main/assets/banner.svg" alt="mumpy banner" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="assets/logo.svg" alt="mumpy logo" width="96"/>
+  <img src="https://raw.githubusercontent.com/salim-studio/mumpy/main/assets/logo.svg" alt="mumpy logo" width="96"/>
 </p>
 
 <h1 align="center">mumpy</h1>
@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/salim-studio/mumpy/actions"><img src="https://github.com/salim-studio/mumpy/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
-  <img src="https://img.shields.io/badge/version-0.2.0-4F46E5" alt="version"/>
+  <img src="https://img.shields.io/badge/version-0.2.1-4F46E5" alt="version"/>
   <img src="https://img.shields.io/badge/python-3.9%2B-06B6D4" alt="python"/>
   <img src="https://img.shields.io/badge/numpy-compatible-013243" alt="numpy compatible"/>
   <img src="https://img.shields.io/badge/license-MIT-FDE047" alt="license"/>

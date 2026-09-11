@@ -47,7 +47,7 @@ except Exception:
     viz = None  # type: ignore
 from ._parallel import MAX_WORKERS, PARALLEL_THRESHOLD, get_workers
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 # ---- numpy compat: re-export everything else verbatim ----
 _COMPAT = [
