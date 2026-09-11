@@ -83,9 +83,9 @@ net.fit(X, y, epochs=200, lr=0.01)
 ## Installation
 
 ```bash
-pip install mumpy            # core (numpy only)
-pip install "mumpy[fast]"    # + scipy for parallel FFT
-pip install "mumpy[all]"     # scipy, pandas, pyarrow, sqlalchemy, duckdb, matplotlib
+pip install mumpy-toolkit            # core (numpy only)
+pip install "mumpy-toolkit[fast]"    # + scipy for parallel FFT
+pip install "mumpy-toolkit[all]"     # scipy, pandas, pyarrow, sqlalchemy, duckdb, matplotlib
 ```
 
 From source:

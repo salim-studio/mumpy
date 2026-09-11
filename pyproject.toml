@@ -1,5 +1,5 @@
 [project]
-name = "mumpy"
+name = "mumpy-toolkit"
 version = "0.2.0"
 description = "NumPy-compatible array library with multithreaded ufuncs, fused ops, plus built-in IO, SQL databases, DataFrame, stats, preprocessing, metrics, ML and tiny DL"
 readme = "README.md"
