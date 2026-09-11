@@ -1,0 +1,15 @@
+[project]
+name = "mumpy"
+version = "0.2.0"
+description = "Drop-in numpy-compatible library + data-science/ML/DL toolkit: faster ufuncs, fused ops, IO, databases, DataFrame, stats, preprocessing, metrics, ML, tiny DL"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24"]
+optional-dependencies = { fast = ["scipy>=1.10"], io = ["pandas>=1.5", "pyarrow>=10"], db = ["sqlalchemy>=2.0", "duckdb>=0.8"], viz = ["matplotlib>=3.5"], all = ["scipy>=1.10", "pandas>=1.5", "pyarrow>=10", "sqlalchemy>=2.0", "duckdb>=0.8", "matplotlib>=3.5"] }
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["mumpy*"]
