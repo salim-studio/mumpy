@@ -1,11 +1,35 @@
 [project]
 name = "mumpy"
 version = "0.2.0"
-description = "Drop-in numpy-compatible library + data-science/ML/DL toolkit: faster ufuncs, fused ops, IO, databases, DataFrame, stats, preprocessing, metrics, ML, tiny DL"
+description = "NumPy-compatible array library with multithreaded ufuncs, fused ops, plus built-in IO, SQL databases, DataFrame, stats, preprocessing, metrics, ML and tiny DL"
 readme = "README.md"
 requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "salim-studio", email = "salim-studio@users.noreply.github.com" }]
+keywords = ["numpy", "arrays", "dataframe", "sql", "machine-learning", "deep-learning", "statistics", "preprocessing"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Database",
+]
 dependencies = ["numpy>=1.24"]
 optional-dependencies = { fast = ["scipy>=1.10"], io = ["pandas>=1.5", "pyarrow>=10"], db = ["sqlalchemy>=2.0", "duckdb>=0.8"], viz = ["matplotlib>=3.5"], all = ["scipy>=1.10", "pandas>=1.5", "pyarrow>=10", "sqlalchemy>=2.0", "duckdb>=0.8", "matplotlib>=3.5"] }
+
+[project.urls]
+Homepage = "https://github.com/salim-studio/mumpy"
+Repository = "https://github.com/salim-studio/mumpy"
+Issues = "https://github.com/salim-studio/mumpy/issues"
+Documentation = "https://github.com/salim-studio/mumpy#readme"
+Changelog = "https://github.com/salim-studio/mumpy/blob/main/CHANGELOG.md"
 
 [build-system]
 requires = ["setuptools>=61"]
@@ -13,3 +37,6 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 include = ["mumpy*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
