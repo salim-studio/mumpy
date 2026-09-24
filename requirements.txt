@@ -1,0 +1,4 @@
+# Runtime dependencies for the Vercel Python serverless function (api/index.py).
+# Keep this minimal (numpy only) so `vercel build` stays fast.
+# The library itself needs nothing beyond numpy; scipy/pandas/etc. are optional.
+numpy>=1.24
