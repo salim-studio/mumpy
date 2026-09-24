@@ -5,7 +5,7 @@ description = "NumPy-compatible array library with multithreaded ufuncs, fused o
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "salim-studio", email = "salim-studio@users.noreply.github.com" }]
+authors = [{ name = "salim-slimani", email = "salim-studio@users.noreply.github.com" }]
 keywords = ["numpy", "arrays", "dataframe", "sql", "machine-learning", "deep-learning", "statistics", "preprocessing"]
 classifiers = [
   "Development Status :: 4 - Beta",

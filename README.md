@@ -150,4 +150,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Bug reports and feature requests are wel
 
 ## License
 
-MIT — see [LICENSE](LICENSE). © salim-studio.
+MIT — see [LICENSE](LICENSE). Copyright © 2026 salim-slimani — salim-studio.
